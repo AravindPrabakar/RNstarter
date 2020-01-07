@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WMG",
+    "icon": "./src/assets/icons/icon.png",
+    "version": "1.0",
+    "slug": "WMG",
+    "sdkVersion": "35.0.0",
+    "privacy": "public",
+    "orientation": "portrait",
+    "githubUrl": "https://github.com/dejoe/ama",
+    "ios": {
+      "bundleIdentifier": "com.wmg.ama",
+      "appStoreUrl": "https://itunes.apple.com/us/app/kitten-tricks/id1246143230"
+    },
+    "android": {
+      "package": "com.wmg.ama",
+      "versionCode": 17
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "src/assets/images/source/*",
+      "src/assets/icons/**/*.png",
+      "src/assets/fonts"
+    ],
+    "splash": {
+      "image": "src/assets/images/source/splash.png",
+      "resizeMode": "contain"
+    }
+  }
+}
